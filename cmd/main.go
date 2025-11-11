@@ -73,7 +73,7 @@ func main() {
 		command = cli.NewCommand()
 		isArgocdCLI = true
 	}
-	klog.Infof("binaryName=%s\n",binaryName)
+	klog.Infof("binaryName: %s\n", binaryName)
 
 	if isArgocdCLI {
 		// silence errors and usages since we'll be printing them manually.
